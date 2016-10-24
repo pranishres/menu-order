@@ -1,0 +1,13 @@
+apply plugin: 'java'
+//apply plugin: 'eclipse-wtp'
+
+//dependsOn('MenuOrder')
+//dependsOn(':MenuOrder')
+
+//dependencies{
+//	compile project ('MenuOrder')
+//	compile project (':MenuOrder')
+//}
+
+
+description = 'MenuOrder-Api2'

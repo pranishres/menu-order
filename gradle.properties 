@@ -1,0 +1,2 @@
+spring-version = "4.3.3.RELEASE"
+postgres-version = "9.4-1200-jdbc41"
