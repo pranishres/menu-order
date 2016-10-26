@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 public class LibraryTest {
 	
     @Test public void saveUserTest() {
-    	User user = new User();
+/*    	User user = new User();
     	user.setFirstName("Pranish");
     	user.setLastName("Shrestha");
     	user.setMiddleName("Maan");
@@ -25,8 +25,15 @@ public class LibraryTest {
     	user.setUsername("tetea");
     	
     	UserServiceImpl userServiceImpl = new UserServiceImpl();
-    	userServiceImpl.saveOrUpdate(user);
+    	userServiceImpl.saveOrUpdate(user);*/
     	
 //    	assertTrue("saving user details to database", userService.saveOrUpdate(user));
+    }
+    
+    @Test
+    public void testAdd(){
+    	String str = "hello";
+    	System.out.println("testAdd()");
+    	assertEquals("hello", str);
     }
 }

@@ -26,5 +26,9 @@ public class UserServiceImpl implements UserService {
 
 		return savedUser;
 	}
+	
+	public User findById(Integer id){
+		return userRepo.findOne(id);
+	}
 
 }

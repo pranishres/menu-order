@@ -7,4 +7,7 @@ import com.menuorder.api.persistence.entity.User;
 
 @Repository
 public interface UserRepo extends JpaRepository<User, Integer> {
+	
+//	public User findById(Integer id);
+	
 }

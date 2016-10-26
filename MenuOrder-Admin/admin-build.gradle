@@ -4,5 +4,12 @@ apply plugin: 'jetty'
 
 description = 'MenuOrder-Admin'
 dependencies {
-  compile project(':MenuOrder-Api')
+
+	// servlet
+	compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0-b01'
+	
+	//spring web
+	compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.3.RELEASE'
+
+  	compile project(':MenuOrder-Api')
 }
